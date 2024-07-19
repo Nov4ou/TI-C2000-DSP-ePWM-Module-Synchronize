@@ -1,0 +1,62 @@
+[
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/app/epwm\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/app/epwm/epwm.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_CpuTimers.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_DefaultIsr.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_EPwm.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_GlobalVariableDefs.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_Gpio.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_PieCtrl.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_PieVect.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_SysCtrl.c"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/ina238\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/iic\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/timer\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM/app/epwm\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/f2806x_libraries/F2806x_usDelay.asm"
+   },
+   {
+      "directory" : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/Debug",
+      "command"   : "clang++ -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize\" -I\"/Users/nov4ou/workspace_v12/f2806x/headers/include\" -I\"/Users/nov4ou/workspace_v12/f2806x/common/include\" -I\"/Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/include\" -I\"/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/app/epwm\"",
+      "file"      : "/Users/nov4ou/workspace_v12/Examples/ePWM_Sync/TI-C2000-DSP-ePWM-Module-Synchronize/user/main.c"
+   }
+]
