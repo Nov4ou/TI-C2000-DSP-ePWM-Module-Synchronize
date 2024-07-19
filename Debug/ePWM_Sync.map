@@ -1,7 +1,7 @@
 ******************************************************************************
              TMS320C2000 Linker Unix v22.6.1                   
 ******************************************************************************
->> Linked Fri Jul 19 11:10:38 2024
+>> Linked Fri Jul 19 11:14:12 2024
 
 OUTPUT FILE NAME:   <ePWM_Sync.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00008905
@@ -14,7 +14,7 @@ MEMORY CONFIGURATION
 PAGE 0:
   BEGIN                 00000000   00000002  00000002  00000000  RWIX
   RAMM0                 00000050   000003b0  0000001e  00000392  RWIX
-  RAML0_L3              00008000   00002000  00000a68  00001598  RWIX
+  RAML0_L3              00008000   00002000  00000a66  0000159a  RWIX
   FPUTABLES             003fd590   000006a0  00000000  000006a0  RWIX
   IQTABLES              003fdf00   00000b50  00000000  00000b50  RWIX
   IQTABLES2             003fea50   0000008c  00000000  0000008c  RWIX
@@ -104,23 +104,23 @@ codestart
 ramfuncs   0    0000006a    00000004     
                   0000006a    00000004     F2806x_usDelay.obj (ramfuncs)
 
-.text      0    00008000    00000a68     
+.text      0    00008000    00000a66     
                   00008000    0000039b     F2806x_DefaultIsr.obj (.text:retain)
                   0000839b    00000302     epwm.obj (.text)
                   0000869d    00000190     F2806x_SysCtrl.obj (.text)
                   0000882d    000000d8     F2806x_EPwm.obj (.text)
                   00008905    00000056     rts2800_fpu32.lib : boot28.asm.obj (.text)
-                  0000895b    0000002f     main.obj (.text)
-                  0000898a    00000029     rts2800_fpu32.lib : exit.c.obj (.text)
-                  000089b3    00000028     F2806x_PieCtrl.obj (.text)
-                  000089db    00000026     F2806x_PieVect.obj (.text)
-                  00008a01    00000024     rts2800_fpu32.lib : cpy_tbl.c.obj (.text)
-                  00008a25    0000001d                       : memcpy.c.obj (.text)
-                  00008a42    00000012                       : args_main.c.obj (.text)
-                  00008a54    00000009                       : _lock.c.obj (.text)
-                  00008a5d    00000008     F2806x_CodeStartBranch.obj (.text)
-                  00008a65    00000002     rts2800_fpu32.lib : pre_init.c.obj (.text)
-                  00008a67    00000001                       : startup.c.obj (.text)
+                  0000895b    0000002d     main.obj (.text)
+                  00008988    00000029     rts2800_fpu32.lib : exit.c.obj (.text)
+                  000089b1    00000028     F2806x_PieCtrl.obj (.text)
+                  000089d9    00000026     F2806x_PieVect.obj (.text)
+                  000089ff    00000024     rts2800_fpu32.lib : cpy_tbl.c.obj (.text)
+                  00008a23    0000001d                       : memcpy.c.obj (.text)
+                  00008a40    00000012                       : args_main.c.obj (.text)
+                  00008a52    00000009                       : _lock.c.obj (.text)
+                  00008a5b    00000008     F2806x_CodeStartBranch.obj (.text)
+                  00008a63    00000002     rts2800_fpu32.lib : pre_init.c.obj (.text)
+                  00008a65    00000001                       : startup.c.obj (.text)
 
 .pinit     0    00000050    00000000     UNINITIALIZED
 
@@ -390,9 +390,9 @@ MODULE SUMMARY
        Total:                          1631   256                3574              
                                                                                    
     ./user/
-       main.obj                        47     0                  0                 
+       main.obj                        45     0                  0                 
     +--+-------------------------------+------+------------------+--------------------+
-       Total:                          47     0                  0                 
+       Total:                          45     0                  0                 
                                                                                    
     /Applications/ti/ccstheia140/ccs/tools/compiler/ti-cgt-c2000_22.6.1A23259/lib/rts2800_fpu32.lib
        boot28.asm.obj                  86     0                  0                 
@@ -408,7 +408,7 @@ MODULE SUMMARY
                                                                                    
        Stack:                          0      0                  768               
     +--+-------------------------------+------+------------------+--------------------+
-       Grand Total:                    2670   280                4352              
+       Grand Total:                    2668   280                4352              
 
 
 GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
@@ -533,7 +533,7 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 page  address   name                            
 ----  -------   ----                            
 0     00008000  .text                           
-0     0000898a  C$$EXIT                         
+0     00008988  C$$EXIT                         
 0     000080be  _ADCINT1_ISR                    
 0     000080c8  _ADCINT2_ISR                    
 0     000082d0  _ADCINT3_ISR                    
@@ -630,12 +630,12 @@ page  address   name
 1     00006b40  _EQep2Regs                      
 1     00000d01  _EmuBMode                       
 1     00000d00  _EmuKey                         
-0     000089d2  _EnableInterrupts               
+0     000089d0  _EnableInterrupts               
 0     00008817  _ExtOscSel                      
 1     00000a80  _FlashRegs                      
 1     00000d04  _Flash_CPUScaleFactor           
 1     00000d02  _Flash_CallbackPtr              
-0     00008985  _ForceSync                      
+0     00008983  _ForceSync                      
 1     00006f80  _GpioCtrlRegs                   
 1     00006fc0  _GpioDataRegs                   
 1     00006fe0  _GpioIntRegs                    
@@ -665,15 +665,15 @@ page  address   name
 0     0000882e  _InitEPwmGpio                   
 0     000088d3  _InitEPwmSyncGpio               
 0     0000874b  _InitPeripheralClocks           
-0     000089b3  _InitPieCtrl                    
-0     000089db  _InitPieVectTable               
+0     000089b1  _InitPieCtrl                    
+0     000089d9  _InitPieVectTable               
 0     000086c9  _InitPll                        
 0     0000871d  _InitPll2                       
 0     0000869d  _InitSysCtrl                    
 0     000088e4  _InitTzGpio                     
 0     000087d2  _IntOsc1Sel                     
 0     000087e2  _IntOsc2Sel                     
-0     00008975  _LED_Init                       
+0     00008973  _LED_Init                       
 0     00008370  _LUF_ISR                        
 0     00008366  _LVF_ISR                        
 0     00008230  _MRINTA_ISR                     
@@ -734,29 +734,29 @@ abs   ffffffff  ___TI_prof_data_start
 abs   ffffffff  ___binit__                      
 abs   ffffffff  ___c_args__                     
 0     00000050  ___cinit__                      
-0     00008a68  ___etext__                      
+0     00008a66  ___etext__                      
 abs   ffffffff  ___pinit__                      
 0     00008000  ___text__                       
-0     00008a42  __args_main                     
+0     00008a40  __args_main                     
 1     0000a11e  __lock                          
-0     00008a5c  __nop                           
-0     00008a58  __register_lock                 
-0     00008a54  __register_unlock               
+0     00008a5a  __nop                           
+0     00008a56  __register_lock                 
+0     00008a52  __register_unlock               
 1     00000400  __stack                         
-0     00008a67  __system_post_cinit             
-0     00008a65  __system_pre_init               
+0     00008a65  __system_post_cinit             
+0     00008a63  __system_pre_init               
 1     0000a120  __unlock                        
-0     0000898a  _abort                          
+0     00008988  _abort                          
 0     00008905  _c_int00                        
-0     00008a01  _copy_in                        
-0     0000898c  _exit                           
+0     000089ff  _copy_in                        
+0     0000898a  _exit                           
 0     0000895b  _main                           
-0     00008a25  _memcpy                         
+0     00008a23  _memcpy                         
 0     00008391  _rsvd_ISR                       
 abs   ffffffff  binit                           
 0     00000050  cinit                           
 0     00000000  code_start                      
-0     00008a68  etext                           
+0     00008a66  etext                           
 abs   ffffffff  pinit                           
 
 
@@ -895,24 +895,24 @@ page  address   name
 0     000088e4  _InitTzGpio                     
 0     00008905  _c_int00                        
 0     0000895b  _main                           
-0     00008975  _LED_Init                       
-0     00008985  _ForceSync                      
-0     0000898a  C$$EXIT                         
-0     0000898a  _abort                          
-0     0000898c  _exit                           
-0     000089b3  _InitPieCtrl                    
-0     000089d2  _EnableInterrupts               
-0     000089db  _InitPieVectTable               
-0     00008a01  _copy_in                        
-0     00008a25  _memcpy                         
-0     00008a42  __args_main                     
-0     00008a54  __register_unlock               
-0     00008a58  __register_lock                 
-0     00008a5c  __nop                           
-0     00008a65  __system_pre_init               
-0     00008a67  __system_post_cinit             
-0     00008a68  ___etext__                      
-0     00008a68  etext                           
+0     00008973  _LED_Init                       
+0     00008983  _ForceSync                      
+0     00008988  C$$EXIT                         
+0     00008988  _abort                          
+0     0000898a  _exit                           
+0     000089b1  _InitPieCtrl                    
+0     000089d0  _EnableInterrupts               
+0     000089d9  _InitPieVectTable               
+0     000089ff  _copy_in                        
+0     00008a23  _memcpy                         
+0     00008a40  __args_main                     
+0     00008a52  __register_unlock               
+0     00008a56  __register_lock                 
+0     00008a5a  __nop                           
+0     00008a63  __system_pre_init               
+0     00008a65  __system_post_cinit             
+0     00008a66  ___etext__                      
+0     00008a66  etext                           
 1     00000400  __stack                         
 1     00000700  __STACK_END                     
 1     00000880  _DevEmuRegs                     

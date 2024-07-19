@@ -28,7 +28,7 @@ int main() {
   // EPWM6_Init(4500);
   // EPWM7_Init(4500);
   EPWM8_Init(4500);
-  ForceSync();
+  // ForceSync();
 
   //
   while (1) {

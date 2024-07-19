@@ -405,9 +405,9 @@ void EPWM8_Init(Uint16 tbprd) {
   EDIS;
 
   // Setup Sync
-  EPwm8Regs.TBCTL.bit.SYNCOSEL = TB_SYNC_IN; // Use sync input
+  EPwm8Regs.TBCTL.bit.SYNCOSEL = TB_SYNC_DISABLE; // Use sync input
   // Allow each timer to be sync'ed
-  EPwm8Regs.TBCTL.bit.PHSEN = TB_ENABLE;
+  EPwm8Regs.TBCTL.bit.PHSEN = TB_DISABLE;
   EPwm8Regs.TBPHS.half.TBPHS = 0;
   EPwm8Regs.TBCTR = 0x0000; // Clear counter
   EPwm8Regs.TBPRD = tbprd;
